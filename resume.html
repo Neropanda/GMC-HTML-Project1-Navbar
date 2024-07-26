@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <style>
         table, th, td {
           border: 1px solid black;
@@ -13,20 +17,20 @@
 </head>
 <body>
      <!-- Start Navbar -->
-     <nav>
+     <nav class="body__nav">
         <ul>
-            <li> <a href="./home.html"> Home </a> </li>
-            <li> <a href="./about.html"> About </a> </li>
-            <li> <a href="./work.html"> Work </a> </li>
-            <li> <a href="#"> Resume </a> </li>
-            <li> <a href="./contact.html"> Contact </a> </li>
+            <li class="nav__ul__li"> <a href="./home.html"> Home </a> </li>
+            <li class="nav__ul__li"> <a href="./about.html"> About </a> </li>
+            <li class="nav__ul__li"> <a href="./work.html"> Work </a> </li>
+            <li class="nav__ul__li"> <a href="#"> Resume </a> </li>
+            <li class="nav__ul__li"> <a href="./contact.html"> Contact </a> </li>
         </ul>
     </nav>
     <!-- End Navbar -->
 
 
     <!-- Start Resume Article -->
-     <article>
+     <article class="body__article">
         Due to my age, I haven't yet truly started my career apart from Education, but now at 21 years old I've definitely
         went through <br> some life experiences in the last two years that taught me skills
      </article>
@@ -34,42 +38,42 @@
 
 
     <!-- Start Resume Table -->
-    <table>
-        <thead><strong>Resume</strong></thead>
-        <tr>
-            <th>Education Career</th>
-            <th>Work Eperience</th>
-            <th>Goals</th>
-            <th>Skills</th>
+    <table class="body__table">
+        <thead class="body__table__thead"><strong>Resume</strong></thead>
+        <tr class="body__table__tr">
+            <th class="body__table__tr__th">Education Career</th>
+            <th class="body__table__tr__th">Work Eperience</th>
+            <th class="body__table__tr__th">Goals</th>
+            <th class="body__table__tr__th">Skills</th>
         </tr>
         <tr>
-            <td>1 year Marketing</td>
-            <td>No Software Dev Work Experience</td>
-            <td>Get money</td>
-            <td>
+            <td class="body__table__tr__td">1 year Marketing</td>
+            <td class="body__table__tr__td">No Software Dev Work Experience</td>
+            <td class="body__table__tr__td">Get money</td>
+            <td class="body__table__tr__td">
                 Front-End Development: <br>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JS</li>
+                <ul class="body__table__tr__td__ul">
+                    <li class="body__table__tr__td__ul__li">HTML</li>
+                    <li class="body__table__tr__td__ul__li">CSS</li>
+                    <li class="body__table__tr__td__ul__li">JS</li>
                 </ul>
             </td>
         </tr>
-        <tr >
-            <td>1 year Business Management</td>
-            <td>Worked in Sales, not for me</td>
-            <td>More Money</td>
-            <td>Back-End Development: <br>
+        <tr class="body__table__tr" >
+            <td class="body__table__tr__td">1 year Business Management</td>
+            <td class="body__table__tr__td">Worked in Sales, not for me</td>
+            <td class="body__table__tr__td">More Money</td>
+            <td class="body__table__tr__td">Back-End Development: <br>
                 <ul>
                     <li>Node.JS</li>
                 </ul>
             </td>
         </tr>
-        <tr>
-            <td>GoMyCode Software Development Bootcamp</td>
-            <td>Chomage rn</td>
-            <td>MAKE A FAMILY (FINALLY)</td>
-            <td></td>
+        <tr class="body__table__tr">
+            <td class="body__table__tr__td">GoMyCode Software Development Bootcamp</td>
+            <td class="body__table__tr__td">Chomage rn</td>
+            <td class="body__table__tr__td">MAKE A FAMILY (FINALLY)</td>
+            <td class="body__table__tr__td"></td>
         </tr>
     </table>
     <!-- End Resume Table -->

@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
    <!-- Start Navbar -->
         <nav>
             <ul>
-                <li> <a href="./home.html"> Home </a> </li>
-                <li> <a href="./about.html"> About </a> </li>
-                <li> <a href="./work.html"> Work </a> </li>
-                <li> <a href="./resume.html"> Resume </a> </li>
-                <li> <a href="#"> Contact </a> </li>
+                <li class="nav__ul__li"> <a href="./home.html"> Home </a> </li>
+                <li class="nav__ul__li"> <a href="./about.html"> About </a> </li>
+                <li class="nav__ul__li"> <a href="./work.html"> Work </a> </li>
+                <li class="nav__ul__li"> <a href="./resume.html"> Resume </a> </li>
+                <li class="nav__ul__li"> <a href="#"> Contact </a> </li>
             </ul>
         </nav>
     <!-- End Navbar -->
 
     <!-- Start Contacts Form -->
-     <h2> If You Want To Save My Contacts For A Later Date, Feel Free</h2>
-     <form>
-        <label for="telephone">Phone number</label>
-        <input type="tel" name="telephone" id="telephone" value="0625506156">
+     <h2 class="body__h2"> If You Want To Save My Contacts For A Later Date, Feel Free</h2>
+     <form class="body__form">
+        <label for="telephone" class="body__form__label">Phone number</label>
+        <input type="tel" class="body__form__inpute" name="telephone" id="telephone" value="0625506156">
         
-        <br>
+        <br class="body__form__br">
 
-        <label for="myemail">Email</label>
-        <input type="myemail" name="myemail" id="myemail" value="amouabdessamad2003@gmail.com" style="width: 230px">
+        <label for="myemail" class="body__form__label">Email</label>
+        <input type="myemail" class="body__form__input" name="myemail" id="myemail" value="amouabdessamad2003@gmail.com" style="width: 230px">
 
-        <br>
+        <br class="body__form__br">
 
-        <label for="comment"> <strong>But if you'd like to contact me directly, feel free to leave me a comment here:</strong></label>
-        <textarea rows="5" cols="40"></textarea>
+        <label for="comment" class="body__form__label"> <strong>But if you'd like to contact me directly, feel free to leave me a comment here:</strong></label>
+        <br class="body__form__br">
+        <textarea class="body__form__textarea" rows="5" cols="40"></textarea>
      </form>
     <!-- End Contacts Form -->
 
